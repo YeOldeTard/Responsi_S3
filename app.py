@@ -4,10 +4,11 @@ from mysql import connector
 app = Flask(__name__)
 
 db = connector.connect(
-    host='localhost',
-    user='root',
-    passwd='',
-    database='db_rentalps',
+    host  = "jfdih.h.filess.io",
+    database  = "RENTAL_tinyblowat",
+    port      = "3307",
+    user  = "RENTAL_tinyblowat",
+    password  = "2971cc35b1b602fad2671c0bb5348fc5572101c2"
 )
 
 if db.is_connected():
